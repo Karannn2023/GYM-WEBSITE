@@ -1,0 +1,416 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: black;
+  color: white;
+}
+.head_container {
+  display: flex;
+  height: 100px;
+}
+
+.header2_conatiner {
+  position: absolute;
+  right: 7%;
+  top: 7%;
+}
+.header2_conatiner a {
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: large;
+  font-weight: 300px;
+  font-weight: bolder;
+}
+.header2_conatiner a:hover {
+  color: red;
+}
+.header1_conatiner p {
+  top: 7%;
+  margin-left: 100px;
+  position: absolute;
+  color: red;
+  font-size: 700;
+  font-size: x-large;
+  font-weight: 600;
+}
+.homeimg {
+  height: 640px;
+  margin-top: -120px;
+  margin-left: 20px;
+}
+.img_container {
+  display: flex;
+}
+.img_container button {
+  height: 40px;
+  width: 105px;
+  border-radius: 20px;
+  color: aliceblue;
+  margin-left: 230px;
+  margin-top: 20px;
+  border: 2px solid white;
+  font-size: smaller;
+  font-weight: bold;
+  background-color: black;
+}
+.img_container button:hover {
+  color: red;
+  border: 2px solid red;
+}
+.img_container p {
+  font-size: 80px;
+  font-weight: 1000;
+  margin-left: 100px;
+}
+.imgtext p {
+  color: white;
+}
+.imgtext .your {
+  margin-top: -40px;
+}
+.imgtext .strenght {
+  margin-top: -30px;
+}
+.imgtext {
+  margin-top: 60px;
+}
+.about_conatiner {
+  margin-top: 50px;
+  display: flex;
+  position: relative;
+}
+.about_type {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+  color: white;
+  margin-left: 140px;
+}
+.about_type p {
+  margin-top: 25px;
+}
+.about_conatiner img {
+  position: absolute;
+  top: 0%;
+  right: 15%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+/* pricing plan */
+.carasoul {
+  display: flex;
+  justify-content: center;
+}
+.carasoul_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 98%;
+  height: 300px;
+  margin-top: 100px;
+  border-radius: 10px;
+  position: absolute;
+}
+.carasoul_item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  width: 350px;
+  height: 420px;
+  border-radius: 20px;
+  margin-top: -60px;
+  color: aliceblue;
+  background-color: #1b1b1b;
+  position: relative;
+}
+
+.carasoul_item button {
+  height: 40px;
+  width: 105px;
+  border-radius: 20px;
+  color: aliceblue;
+  margin-left: 230px;
+  margin-top: 20px;
+  border: 2px solid white;
+  font-size: smaller;
+  font-weight: bold;
+  background-color: black;
+  position: absolute;
+  bottom: 7%;
+  left: -30%;
+}
+.carasoul_item button:hover {
+  color: red;
+  border: 2px solid red;
+}
+.carasoul_item h1:hover {
+  color: red;
+}
+.carasoul_item h1 {
+  position: absolute;
+  top: 8%;
+}
+.carasoul_item .icons {
+  position: absolute;
+  top: 20%;
+  font-size: x-large;
+}
+.carasoul_item p {
+  font-size: large;
+  margin-top: 75px;
+  margin-left: 30px;
+}
+#p1 {
+  position: absolute;
+  top: 13%;
+}
+#p2 {
+  position: absolute;
+  top: 26%;
+}
+#p3 {
+  position: absolute;
+  top: 49%;
+}
+#p2_icon {
+  position: absolute;
+  top: 45%;
+  left: 9%;
+  border: 2px solid red;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+#p3_icon {
+  position: absolute;
+  top: 57%;
+  left: 9%;
+  border: 2px solid red;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+#p4_icon {
+  position: absolute;
+  top: 67%;
+  left: 9%;
+  border: 2px solid red;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+#pp1_icon {
+  position: absolute;
+  top: 33%;
+  left: 9%;
+  border: 2px solid #00ff5a;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+#p2l2_icon {
+  position: absolute;
+  top: 45%;
+  left: 9%;
+  border: 2px solid #00ff5a;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+#p3l2_icon {
+  position: absolute;
+  top: 45%;
+  left: 9%;
+  border: 2px solid #00ff5a;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+#p3l3_icon {
+  position: absolute;
+  top: 57%;
+  left: 9%;
+  border: 2px solid #00ff5a;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+#p3l4_icon {
+  position: absolute;
+  top: 67%;
+  left: 9%;
+  border: 2px solid #00ff5a;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+.carasoul h3 {
+  color: white;
+  position: absolute;
+  top: 13%;
+  font-size: xx-large;
+}
+.carasoul_item img {
+  height: 285px;
+  width: 300px;
+  border-radius: 10px;
+  position: absolute;
+  top: 5%;
+}
+.carasoul_item h2 {
+  position: absolute;
+  bottom: 15%;
+
+  font-size: xx-large;
+}
+.train_icons {
+  position: absolute;
+  bottom: 0%;
+}
+.icon:hover {
+  color: red;
+}
+.icon {
+  margin: 15px;
+  font-size: xx-large;
+}
+#trainer2_img {
+  width: 300px;
+}
+#trainer3_img {
+  width: 300px;
+}
+#google_map {
+  position: absolute;
+  right: 5%;
+  top: 20%;
+  border-radius: 10px;
+}
+input {
+  height: 50px;
+  width: 400px;
+  border: none;
+  border-radius: 5px;
+  margin: 15px;
+  margin-left: 70px;
+  margin-top: 15px;
+  font-size: large;
+  font-weight: 600;
+}
+textarea {
+  height: 110px;
+  width: 400px;
+  margin-left: 70px;
+  border-radius: 10px;
+  margin-top: 15px;
+  font-size: large;
+  font-weight: 600;
+}
+#message_btn {
+  position: absolute;
+  top: 85%;
+  left: 12%;
+  height: 45px;
+  width: 115px;
+  border-radius: 20px;
+  color: aliceblue;
+  border: 2px solid white;
+  font-size: smaller;
+  font-weight: bold;
+  background-color: black;
+}
+#call_btn {
+  position: absolute;
+  top: 85%;
+  left: 23%;
+  height: 45px;
+  width: 115px;
+  border-radius: 20px;
+  color: aliceblue;
+  border: 2px solid white;
+  font-size: smaller;
+  font-weight: bold;
+  background-color: black;
+}
+#message_btn:hover {
+  color: red;
+  border: 2px solid red;
+}
+#call_btn:hover {
+  color: red;
+  border: 2px solid red;
+}
+.contact_us h1 {
+  margin-left: 190px;
+}
+.footer {
+  display: flex;
+}
+.footer_container {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  justify-content: space-evenly;
+  bottom: -45%;
+  height: 270px;
+  width: 100%;
+  background-color: #1b1b1b;
+}
+.footer_item1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 214px;
+  height: 160px;
+}
+.footer_container h1 {
+  margin-bottom: 20px;
+}
+.footer_item2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 214px;
+  height: 160px;
+}
+.footer_item3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 244px;
+  height: 160px;
+}
+.footer_item4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 214px;
+  height: 160px;
+}
+.footer_line {
+  display: flex;
+  height: 50px;
+  position: absolute;
+  bottom: 10%;
+  border-top: 2px solid red;
+  width: 100%;
+  align-items: end;
+  justify-content: center;
+}
+#levelup {
+  color: red;
+  margin: 0 3px 0 4px;
+  font-weight: bold;
+}
